@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    font-family: 'Jura', Arial, sans-serif;
+  }
+  
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,1);      
+    overflow: hidden;
+    
+    font-weight: bold;
+  }
+  
+  .container {
+    top: 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  #banner-title { 
+    position: absolute; 
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+    margin: 0 auto; 
+    position: relative;  
+    font-family: 'Sacramento', Arial, serif;
+  }
+  
+  #banner {
+    width: 100%;
+    margin: 0px;
+    
+  } 
+  
+  .html-list-item {
+    border: none;
+    font-style: italic;  
+  }
+  
+  h3 {
+    font-family: 'Jura', Arial, serif;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  li {
+    float: left;
+    border-right: 2px solid white;
+    
+  }
+  
+  li a {
+    display: block;
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Jura', Arial, serif;
+  }
+  
+  
+  #contact-block {
+    float: right;
+    border-right: none;
+  }
