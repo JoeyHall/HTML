@@ -1,5 +1,7 @@
 body {
     background-image: url("../../resources/images/background-main.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
     font-family: 'Jura', Arial, sans-serif;
   }
   
@@ -57,13 +59,13 @@ body {
     list-style-type: disc; 
   }
   
-  .nav-item {
+  li .nav-item {
     float: left;
     border-right: 2px solid white;
     
   }
   
-  .nav-item a {
+  li .nav-item a {
     display: block;
     padding: 0px 16px;
     color: white;
