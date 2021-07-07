@@ -35,7 +35,6 @@ body {
     margin: 0px;
     
   }  
-
   
   h3 {
     font-family: 'Jura', Arial, serif;
@@ -51,8 +50,11 @@ body {
   .html-list-item {
     border: none;
     font-style: italic; 
-    list-style-type: disc; 
+    
+  }
 
+  .html-item {
+    list-style-type: disc; 
   }
   
   li .nav-item {
