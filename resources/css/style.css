@@ -48,11 +48,11 @@ body {
     text-align: justify;
   }
 
-  li .html-list-item {
+  .html-list-item {
     border: none;
     font-style: italic; 
     list-style-type: disc; 
-    
+
   }
   
   li .nav-item {
