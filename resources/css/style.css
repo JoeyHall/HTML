@@ -34,12 +34,8 @@ body {
     width: 100%;
     margin: 0px;
     
-  } 
-  
-  .html-list-item {
-    border: none;
-    font-style: italic;  
-  }
+  }  
+
   
   h3 {
     font-family: 'Jura', Arial, serif;
@@ -51,8 +47,15 @@ body {
   p {
     text-align: justify;
   }
+
+  li .html-list-item {
+    border: none;
+    font-style: italic; 
+    list-style-type: disc; 
+    
+  }
   
-  .nav-item {
+  li .nav-item {
     float: left;
     border-right: 2px solid white;
     
