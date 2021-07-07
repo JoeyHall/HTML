@@ -57,13 +57,13 @@ body {
     list-style-type: disc; 
   }
   
-  li .nav-item {
+  .nav-item {
     float: left;
     border-right: 2px solid white;
     
   }
   
-  li a {
+  .nav-item a {
     display: block;
     padding: 0px 16px;
     color: white;
