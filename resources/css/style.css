@@ -1,7 +1,9 @@
 body {
     background-image: url("../../resources/images/background-main.jpeg");
-    background-size: auto;
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    
     font-family: 'Jura', Arial, sans-serif;
   }
   
@@ -43,6 +45,7 @@ body {
     font-weight: bold;
     text-align: center;
     background: white;
+    color: black;
   }
   
   p {
@@ -52,6 +55,7 @@ body {
   .html-list-item {
     border: none;
     font-style: italic; 
+    color: black;
     
   }
 
@@ -59,13 +63,13 @@ body {
     list-style-type: disc; 
   }
   
-  li .nav-item {
+  .nav-item {
     float: left;
     border-right: 2px solid white;
     
   }
   
-  li .nav-item a {
+  .nav-item a {
     display: block;
     padding: 0px 16px;
     color: white;
