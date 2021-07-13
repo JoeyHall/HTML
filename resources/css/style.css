@@ -18,27 +18,50 @@ body {
     font-weight: bold;
   }
   
-  .container {
-    top: 0;
+  .top {
     position: relative;
-    text-align: center;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+  }
+
+  .middle {
+    position: relative; 
+    
+    
+  }
+
+  .container {  
+        text-align: center;
+        margin-top: 0;
+        padding: 0;
   }
   
   #banner-title { 
-    position: absolute; 
+    position: relative; 
+    background-color: blue;
+    opacity: 0.5;
     left: 50%;
     top: 50px;
     transform: translate(-50%);
-    margin: 0 auto; 
-    position: relative;  
+    margin: 0 auto;      
     font-family: 'Sacramento', Arial, serif;
   }
   
   #banner {
     width: 100%;
     margin: 0px;
-    
+    border: 3px solid black;   
+   
   }  
+
+  #box-model{
+    background: white;
+
+  }
   
   h3 {
     font-family: 'Jura', Arial, serif;
@@ -46,6 +69,13 @@ body {
     text-align: center;
     background: white;
     color: black;
+  }
+
+  h4 {
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    color: white;
   }
   
   p {
